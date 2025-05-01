@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "vitest"
+    "test": "vitest",
+    "docs": "typedoc"
   },
   "keywords": [
     "inspectable",
@@ -22,6 +23,7 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.0.0",
-    "vitest": "^1.0.0"
+    "vitest": "^1.0.0",
+    "typedoc": "^0.25.0"
   }
 }
