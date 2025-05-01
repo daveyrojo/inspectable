@@ -1,0 +1,27 @@
+{
+  "name": "inspectable",
+  "version": "0.1.0",
+  "description": "Lightweight utilities and a base class to make custom classes behave like native JavaScript types.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "keywords": [
+    "inspectable",
+    "utils",
+    "toJSON",
+    "toString",
+    "typescript",
+    "base-class",
+    "devtools",
+    "debugging"
+  ],
+  "author": "David Eldridge aka DaveyRojo",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
