@@ -9,6 +9,12 @@ export abstract class InspectableBase {
     return `[${this.tag}]`;
   }
 
+  [Symbol.toPrimitive](hint: string) {
+    if (hint === "string") return this.toString();
+    if (hint === "number") return NaN;
+    return this.toString();
+  }
+
   [Symbol.for("nodejs.util.inspect.custom")](): string {
     return this.toString();
   }
